@@ -1,0 +1,12 @@
+# Execute /usr/local/bin/update-ddns-ping6 to update DDNS by i.open.ad.jp
+#
+# put this file into /etc/systemd/system/
+[Unit]
+Description=DDNS Uppdate
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/update-ddns-ping6
+
+[Install]
+WantedBy=multi-user.target

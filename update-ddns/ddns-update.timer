@@ -1,0 +1,13 @@
+# Execute /usr/local/bin/update-ddns-ping6 to update DDNS by i.open.ad.jp
+#
+# put this file into /etc/systemd/system/
+[Unit]
+Description=DDNS update timer (i.open.ad.jp)
+
+[Timer]
+OnBootSec=30s
+OnUnitActiveSec=1d 
+Unit=ddns-update.service
+
+[Install]
+WantedBy=timers.target
