@@ -3,9 +3,13 @@
 # put this file into /etc/systemd/system/
 [Unit]
 Description=DDNS update timer (i.open.ad.jp)
+Wants=network-online.target
+Requires=systemd-networkd.socket
+After=systemd-networkd.socket
+After=network-online.target
 
 [Timer]
-OnBootSec=30s
+OnBootSec=1m
 OnUnitActiveSec=1d 
 Unit=ddns-update.service
 
