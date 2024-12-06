@@ -1,8 +1,0 @@
-# target host to ping6
-# create update-ddns-ping6.conf from this file and 
-# put this to /etc/update-ddns-ping6.conf
-#
-# 
-# PING6TO="hostname or ipv6 addr to update DDNS entry"
-# get this update hostname/addr from https://ddns.open.ad.jp/
-PING6TO=""

@@ -1,8 +1,0 @@
-#!/bin/bash
-#
-# put this file into /usr/local/bin/update-ddns-ping6
-#
-source /etc/update-ddns-ping6.conf
-if [ "$PING6TO" != "" ] ; then
-  exec ping6 -c 1 $PING6TO
-fi

@@ -1,8 +1,0 @@
-[Unit]
-Description = Weekly Reboot Timer
-
-[Timer]
-OnCalendar = Mon 3:00 Asia/Tokyo
-
-[Install]
-WantedBy = timers.target

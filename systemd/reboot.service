@@ -1,7 +1,0 @@
-[Unit]
-Description = Reboot
-RefuseManualStart = true
-RefuseManualStop = true
-
-[Service]
-ExecStart = /sbin/reboot
