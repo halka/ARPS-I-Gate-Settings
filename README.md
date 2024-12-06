@@ -1,6 +1,6 @@
 # APRS I-Gate Station Configs
 
-Receive Various frequencies and baudrate.
+Receive Various frequencies and baudrates.
 
 ## Contents
 
