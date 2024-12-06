@@ -6,7 +6,7 @@ Receive Various frequencies and baudrates.
 
 - `direwolf.conf` : config file for direwolf
 - `start-rtlfm-direwolf.sh` : bash script to start rtl_fm and direwolf
-- `arps.service` : service file
+- `aprs.service` : service file
 
 ## Prepare for Operating
 
@@ -20,7 +20,7 @@ Receive Various frequencies and baudrates.
   ```
   - To get permission to use RTL-SDR device, need to add the user `aprs` into some groups.
 - Start and Enable as a Service
-  - Modfify and copy to `/etc/systemd/system`
+  - Modfify `aprs.service` and Copy to `/etc/systemd/system`
 
 ## Thanks
 - Masaru Yokoi (JF1PEQ)
