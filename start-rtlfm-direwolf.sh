@@ -2,7 +2,7 @@
 
 # -l : Squelch Level
 # -g : Tuner Gain
-# -d : Device Index or S/N
+# -d : Dongle's Device Index or S/N
 
 thisdir="$(dirname $0)"
 direwolf_conf="$thisdir/direwolf.conf"
