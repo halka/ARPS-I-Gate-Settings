@@ -8,6 +8,7 @@ thisdir="$(dirname $0)"
 direwolf_conf="$thisdir/direwolf.conf"
 pcm_rate=48000
 device=0
+
 [ -z "$squelch_level" ] && squelch_level=70
 
 (
