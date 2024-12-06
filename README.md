@@ -10,7 +10,7 @@ Receive Various frequencies and baudrate.
 
 ## Prepare for Operating
 
-- Prepare Ubuntu or Debian on PC or Raspberry PI
+- Get Raspberry PI and SDR Dongle
 - Install `direwolf` and `rtl_fm` there are depends on your dongle.
 - Create a user `aprs`.
 - Edit `direwolf.conf`
